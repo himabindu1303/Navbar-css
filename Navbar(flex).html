@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header{
+             background-color: lightskyblue;
+        }
+        nav{
+             padding: 30px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+        }
+        a{
+            padding: 0px 10px;
+            font-size: 30px;
+            text-decoration: none;
+        }
+        @media screen and (max-width:480px){
+           nav{
+               background-color: lightcoral;
+               flex-direction: column;
+           }
+        }
+        @media screen and (min-width:481px) and (max-width:768px){
+           nav{
+               background-color: lightgreen;
+           }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a  href="" >Home</a>
+            <a  href="" >About</a>
+            <a  href="" >Projects</a>
+            <a  href="">Contact</a>
+        </nav>
+    </header>
+</body>
+
+</html>
